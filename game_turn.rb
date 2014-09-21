@@ -1,4 +1,5 @@
 require_relative 'player'
+require_relative 'game'
 
 module MasterMind
 module GameTurn
@@ -17,6 +18,8 @@ module GameTurn
 		answer4 = gets.chomp.downcase
 		player << answer4
 	end
+
+
 
 end
 end

@@ -1,9 +1,8 @@
 require_relative 'player'
 require_relative 'game'
 
-
 new_game = MasterMind::Game.new
-new_game.add_game_codes("blah.csv")
+new_game.load_balls("ball_orders.csv")
 
 loop do
 	puts "Would you like to (p)lay, read the (i)nstructions, or (q)uit?"
